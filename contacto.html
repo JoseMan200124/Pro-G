@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro G</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Slick Slider -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+  <!-- CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Tu CSS personalizado -->
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="#"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Servicios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <a class="dropdown-item" href="#">Servicio 1</a>
+                  <a class="dropdown-item" href="#">Servicio 2</a>
+                  <!-- Añade más servicios según necesites -->
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link btn text-white" href="#" style="background-color: #01395E;">Cotiza Aquí!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="container-fluid mt-5" style="padding-left: 0px!important;">
+        <div class="row no-gutters">
+            <div class="col-lg-4">
+                <div class="text-white rounded-right py-3 px-3 mb-5" style="background: #01395E;">
+    
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fab fa-whatsapp fa-2x mr-3"></i>
+                        <div>
+                            <h4 class="mb-0">Teléfono</h4>
+                            <p>+502 5929-3203</p>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-envelope fa-2x mr-3"></i>
+                        <div>
+                            <h4 class="mb-0">E-Mail</h4>
+                            <p>progmarketinggt@gmail.com</p>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-clock fa-2x mr-3"></i>
+                        <div>
+                            <h4 class="mb-0">Horario</h4>
+                            <p>Lunes a Viernes de 8:00 - 17:00 Hrs</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096036!2d144.95373531544305!3d-37.816279879751864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ced40!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1582482209332!5m2!1sen!2sus"
+                    allowfullscreen="" style="border:0; width: 100%; height: 300px;">
+                </iframe>
+            </div>
+    
+            <div class="col-lg-8 py-5 px-5">
+                <h2 class="mb-5">DANDO FORMA AL FUTURO DE LOS NEGOCIOS</h2>
+                <p class="lead">Trabajamos con clientes seleccionados para proporcionar resultados excepcionales. Solicite una sesión de estrategia para que podamos ver si usted será nuestra próxima historia de éxito.</p>
+                
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control rounded-input" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" class="form-control rounded-input" id="telefono" placeholder="Tu teléfono">
+                        </div>
+                        
+                        <div class="form-group col-md-6">
+                            <label for="email">E-Mail</label>
+                            <input type="email" class="form-control rounded-input" id="email" placeholder="Tu email">
+                        </div>
+                    </div>
+                    
+                    <h4>Proyecto a Desarrollar</h4>
+            
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input round-check" type="checkbox" id="marketing">
+                            <label class="form-check-label" for="marketing">Marketing Digital</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input round-check" type="checkbox" id="sitios">
+                            <label class="form-check-label" for="sitios">Sitios Web</label>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input round-check" type="checkbox" id="branding">
+                            <label class="form-check-label" for="branding">Branding & Diseño</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input round-check" type="checkbox" id="otros">
+                            <label class="form-check-label" for="otros">Otros...</label>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="descripcion">Descripción</label>
+                        <textarea class="form-control rounded-input" id="descripcion" rows="3"></textarea>
+                    </div>
+            
+                    <button type="submit" class="btn-enviar" style="background-color:#01395E ; color: #fff;">Enviar</button>
+                </form>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+<footer class="footer text-center py-3">
+    <div class="container">
+        <div class="social-icons mb-3">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="text-white mb-0">Copyright Pro G Marketing 2023</p>
+    </div>
+</footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $('.slider').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+  <script>
+    $('.clients-slider').slick({
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+
+  </script>
+    <script>
+        $('.faq-card h5 button').click(function() {
+          var cardBody = $(this).closest('.faq-card').find('.card-body');
+          if (cardBody.is(':visible')) {
+            cardBody.slideUp();
+            $(this).html('<i class="fas fa-plus"></i>');
+          } else {
+            cardBody.slideDown();
+            $(this).html('<i class="fas fa-minus"></i>');
+          }
+        });
+      </script>
+    </body>
+    </html>
